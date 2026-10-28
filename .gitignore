@@ -1,0 +1,3 @@
+bge-env/
+torch-2.7.1+cu118-cp311-cp311-win_amd64.whl
+*__pycache__/

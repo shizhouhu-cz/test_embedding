@@ -1,0 +1,30 @@
+14:46:44.004 [INFO] 加载npy向量文件
+14:46:44.005 [INFO] 加载npy结束
+14:46:44.006 [INFO] 加载embedding模型
+14:46:44.030 [INFO] Loading SentenceTransformer model from D:\Code\embedding_model\models\bge-small-zh-v1.5.
+14:46:44.629 [INFO] embedding模型加载完成
+15:00:40.836 [INFO] 加载npy向量文件
+15:00:40.837 [INFO] 加载npy结束
+15:00:40.838 [INFO] 加载embedding模型
+15:00:40.852 [INFO] Loading SentenceTransformer model from D:\Code\embedding_model\models\bge-small-zh-v1.5.
+15:00:41.264 [INFO] embedding模型加载完成
+15:02:19.370 [INFO] 加载npy向量文件
+15:02:19.372 [INFO] 加载npy结束
+15:02:19.373 [INFO] 加载embedding模型
+15:02:19.388 [INFO] Loading SentenceTransformer model from D:\Code\embedding_model\models\bge-small-zh-v1.5.
+15:02:19.792 [INFO] embedding模型加载完成
+15:12:51.434 [INFO] 加载npy向量文件
+15:12:51.437 [INFO] 加载npy结束
+15:12:51.438 [INFO] 加载embedding模型
+15:12:51.452 [INFO] Loading SentenceTransformer model from D:\Code\embedding_model\models\bge-small-zh-v1.5.
+15:12:51.844 [INFO] embedding模型加载完成
+15:23:45.551 [INFO] 加载npy向量文件
+15:23:45.552 [INFO] 加载npy结束
+15:23:45.553 [INFO] 加载embedding模型
+15:23:45.568 [INFO] Loading SentenceTransformer model from D:\Code\embedding_model\models\bge-small-zh-v1.5.
+15:23:46.009 [INFO] embedding模型加载完成
+15:30:05.421 [INFO] 加载npy向量文件
+15:30:05.422 [INFO] 加载npy结束
+15:30:05.422 [INFO] 加载embedding模型
+15:30:05.436 [INFO] Loading SentenceTransformer model from D:\Code\embedding_model\models\bge-small-zh-v1.5.
+15:30:06.138 [INFO] embedding模型加载完成
