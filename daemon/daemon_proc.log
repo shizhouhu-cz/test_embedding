@@ -63,3 +63,27 @@
 2026-10-29 16:09:23,252 INFO embed_daemon op='shutdown' -> 26 bytes
 2026-10-29 16:09:23,253 INFO embed_daemon client ('127.0.0.1', 51244) disconnected
 2026-10-29 16:09:23,254 INFO embed_daemon daemon exited
+2026-10-29 16:09:35,079 INFO embed_daemon start loading
+2026-10-29 16:10:08,771 INFO sentence_transformers.base.model No device provided, using cuda:0
+2026-10-29 16:10:08,774 INFO sentence_transformers.base.model Loading SentenceTransformer model from D:\Code\embedding_model\models\bge-small-zh-v1.5.
+2026-10-29 16:10:09,703 INFO embed_daemon 向量文件shape： (3, 512)
+2026-10-29 16:10:09,703 INFO embed_daemon 原始文本内容：招投标流程一般包括招标、投标、开标、评标、中标
+数字化转型咨询包括现状评估、蓝图设计、系统实施
+服务器安全基线检查包括账号、权限、日志审计
+2026-10-29 16:10:09,703 INFO embed_daemon end loading
+2026-10-29 16:10:09,704 INFO embed_daemon listening on 127.0.0.1:8282
+2026-10-29 16:13:05,536 INFO embed_daemon client ('127.0.0.1', 58262) connected
+2026-10-29 16:13:05,559 INFO embed_daemon op='search' -> 182 bytes
+2026-10-29 16:13:05,560 INFO embed_daemon client ('127.0.0.1', 58262) disconnected
+2026-10-29 16:13:27,192 INFO embed_daemon client ('127.0.0.1', 55667) connected
+2026-10-29 16:13:27,381 INFO embed_daemon op='search' -> 182 bytes
+2026-10-29 16:13:27,381 INFO embed_daemon client ('127.0.0.1', 55667) disconnected
+2026-10-29 16:14:10,582 INFO embed_daemon client ('127.0.0.1', 52336) connected
+2026-10-29 16:14:10,611 INFO embed_daemon op='search' -> 182 bytes
+2026-10-29 16:14:10,612 INFO embed_daemon client ('127.0.0.1', 52336) disconnected
+2026-10-29 16:14:22,804 INFO embed_daemon client ('127.0.0.1', 60260) connected
+2026-10-29 16:14:22,829 INFO embed_daemon op='search' -> 181 bytes
+2026-10-29 16:14:22,830 INFO embed_daemon client ('127.0.0.1', 60260) disconnected
+2026-10-29 16:23:22,621 INFO embed_daemon client ('127.0.0.1', 52501) connected
+2026-10-29 16:23:22,642 INFO embed_daemon op='search' -> 182 bytes
+2026-10-29 16:23:22,642 INFO embed_daemon client ('127.0.0.1', 52501) disconnected
