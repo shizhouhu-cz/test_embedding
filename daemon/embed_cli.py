@@ -18,13 +18,13 @@ def call(cmd: dict) -> dict:
                 buf += chunk
             return json.loads(buf.partition(b"\n")[0].decode("utf-8"))
     except ConnectionRefusedError:
-        sys.exit("f:无法连接 {HOST}:{PORT} --damon 未启动，或仍在加载模型（约30s）")
+        sys.exit(f":无法连接 {HOST}:{PORT} --damon 未启动，或仍在加载模型（约30s）")
 
 
 # 格式化命中得片段信息
 def fmt_hits(resp: dict) -> str:
     if not resp.get("ok"):
-        return f"[err] {resp.get('err')}"
+        return f"[err] {resp.get('msg')}"
     lines = [
         f"{index:>2}. {content['score']:7.4f} {content['text'][:80]}"
         for index, content in enumerate(resp.get("hits", []), 1)
@@ -51,6 +51,7 @@ def main():
         if query == ":shutdown":
             resp = call({"op": "shutdown"})
             print(f"daemon says: {resp.get('msg', resp)}")
+            continue
 
         print(fmt_hits(call({"op": "search", "query": query})))
 

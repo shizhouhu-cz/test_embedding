@@ -17,6 +17,7 @@ class DeamonState:
         self.model = None
         self.embs = None
         self.texts = None
+        self.running = False
 
     def load(self):
         log.info("start loading")
