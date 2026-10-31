@@ -24,12 +24,12 @@ class DeamonState:
 
         # 加载模型
         self.model = SentenceTransformer(
-            r"D:\Code\embedding_model\models\bge-small-zh-v1.5"
+            str(Path(__file__).resolve().parent.parent / "models" / "bge-small-zh-v1.5")
         )
 
         # 把chunk.txt内容加载到内存中，两个用途：1. 向量文件构造;2. 向量文件和原文对照
         with open(
-            r"D:\Code\embedding_model\models-env\chunks.txt", encoding="UTF-8"
+            Path(__file__).resolve().parent.parent / "models-env" / "chunks.txt", encoding="UTF-8"
         ) as f:
             self.texts = [line.strip() for line in f]
 

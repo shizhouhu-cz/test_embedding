@@ -63,3 +63,29 @@
 2026-10-29 16:09:23,252 INFO embed_daemon op='shutdown' -> 26 bytes
 2026-10-29 16:09:23,253 INFO embed_daemon client ('127.0.0.1', 51244) disconnected
 2026-10-29 16:09:23,254 INFO embed_daemon daemon exited
+2026-10-31 21:41:13,308 INFO embed_daemon start loading
+2026-10-31 21:41:46,282 INFO sentence_transformers.base.model No device provided, using mps
+2026-10-31 21:41:46,282 WARNING sentence_transformers.util.file_io Could not resolve the revision of 'sentence-transformers/D:\\Code\\embedding_model\\models\\bge-small-zh-v1.5' (Repo id must use alphanumeric chars, '-', '_' or '.'. The name cannot start or end with '-' or '.' and the maximum length is 96: 'sentence-transformers/D:\Code\embedding_model\models\bge-small-zh-v1.5'.). Loading without pinning to a single commit.
+2026-10-31 21:41:46,282 INFO sentence_transformers.base.model No modules.json found for sentence-transformers/D:\Code\embedding_model\models\bge-small-zh-v1.5, initializing a new SentenceTransformer model.
+2026-10-31 21:43:35,301 INFO embed_daemon start loading
+2026-10-31 21:43:38,033 INFO sentence_transformers.base.model No device provided, using mps
+2026-10-31 21:44:10,891 INFO embed_daemon start loading
+2026-10-31 21:44:12,752 INFO sentence_transformers.base.model No device provided, using mps
+2026-10-31 21:58:35,410 INFO embed_daemon start loading
+2026-10-31 21:58:38,330 INFO sentence_transformers.base.model No device provided, using mps
+2026-10-31 21:58:38,331 INFO sentence_transformers.base.model Loading SentenceTransformer model from /Users/shizhouhu/Code/test_embedding/models/bge-small-zh-v1.5.
+2026-10-31 21:59:13,635 INFO embed_daemon start loading
+2026-10-31 21:59:15,349 INFO sentence_transformers.base.model No device provided, using mps
+2026-10-31 21:59:15,350 INFO sentence_transformers.base.model Loading SentenceTransformer model from /Users/shizhouhu/Code/test_embedding/models/bge-small-zh-v1.5.
+2026-10-31 22:05:31,718 INFO embed_daemon start loading
+2026-10-31 22:05:33,554 INFO sentence_transformers.base.model No device provided, using mps
+2026-10-31 22:05:33,555 INFO sentence_transformers.base.model Loading SentenceTransformer model from /Users/shizhouhu/Code/test_embedding/models/bge-small-zh-v1.5.
+2026-10-31 22:05:34,778 INFO embed_daemon 向量文件shape： (3, 512)
+2026-10-31 22:05:34,778 INFO embed_daemon 原始文本内容：招投标流程一般包括招标、投标、开标、评标、中标
+数字化转型咨询包括现状评估、蓝图设计、系统实施
+服务器安全基线检查包括账号、权限、日志审计
+2026-10-31 22:05:34,778 INFO embed_daemon end loading
+2026-10-31 22:05:34,779 INFO embed_daemon listening on 127.0.0.1:8282
+2026-10-31 22:05:44,067 INFO embed_daemon client ('127.0.0.1', 57819) connected
+2026-10-31 22:05:44,243 INFO embed_daemon op='search' -> 182 bytes
+2026-10-31 22:05:44,243 INFO embed_daemon client ('127.0.0.1', 57819) disconnected
