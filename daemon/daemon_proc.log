@@ -89,3 +89,6 @@
 2026-10-31 22:05:44,067 INFO embed_daemon client ('127.0.0.1', 57819) connected
 2026-10-31 22:05:44,243 INFO embed_daemon op='search' -> 182 bytes
 2026-10-31 22:05:44,243 INFO embed_daemon client ('127.0.0.1', 57819) disconnected
+2026-10-31 22:59:42,620 INFO embed_daemon client ('127.0.0.1', 58832) connected
+2026-10-31 22:59:42,825 INFO embed_daemon op='search' -> 182 bytes
+2026-10-31 22:59:42,826 INFO embed_daemon client ('127.0.0.1', 58832) disconnected
