@@ -16,7 +16,7 @@ log = logging.getLogger(__name__)
 
 log.info("加载模型")
 model = SentenceTransformer(
-    r"D:\Code\embedding_model\models\bge-small-zh-v1.5", device="cuda"
+    r"D:\Code\embedding_model\models\bge-small-zh-v1.5", device="cpu"
 )
 log.info("模型加载结束")
 
