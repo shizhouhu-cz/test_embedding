@@ -1,4 +1,4 @@
-bge-env/
+.venv/
 torch-2.7.1+cu118-cp311-cp311-win_amd64.whl
 *__pycache__/
 models/bge-small-zh-v1.5/
